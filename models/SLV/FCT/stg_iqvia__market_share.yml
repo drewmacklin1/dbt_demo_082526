@@ -1,8 +1,7 @@
 version: 2
 
 # -----------------------------------------------------------------------
-# DEMO GAP: descriptions deliberately omitted. Backup target for the live
-# dbt Wizard documentation demo if the HCP model misbehaves.
+# DEMO GAP: descriptions deliberately omitted. 
 # -----------------------------------------------------------------------
 models:
   - name: stg_iqvia__market_share
