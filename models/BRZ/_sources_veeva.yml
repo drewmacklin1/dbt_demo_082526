@@ -39,8 +39,8 @@ sources:
             description: Timestamp the row landed in bronze. Drives source freshness.
         config:
           freshness:
-            warn_after: {count: 24, period: hour}
-            error_after: {count: 48, period: hour}
+            warn_after: {count: 2, period: day}
+            error_after: {count: 4, period: day}
             
       - name: d_hcp
         identifier: D_HCP
